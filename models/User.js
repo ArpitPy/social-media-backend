@@ -41,20 +41,20 @@ const UserSchema = mongoose.Schema(
       default: false,
     },
     desc: {
-        type: String,
-        max: 50,
+      type: String,
+      max: 50,
     },
     city: {
-        type: String,
-        max: 50,
+      type: String,
+      max: 50,
     },
     from: {
-        type: String,
-        max: 50,
+      type: String,
+      max: 50,
     },
     relationship: {
-        type: Number,
-        enm: [1,2,3]
+      type: Number,
+      enm: [1, 2, 3],
     },
   },
   { timestamps: true }
